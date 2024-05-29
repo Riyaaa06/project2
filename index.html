@@ -2,10 +2,322 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample code<title>
+    <title>Taskify</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
+    <div id="wrapper">
+
+        <div class="container">
+            <div class="navbar">
+                
+                <div class="logo-container">
+                    <img src="/images/userAsset/TaskifyBlack.png"/>
+                </div>
+                
+                <div class="nav-items">
+                    <div><a href="#login">Login</a></div>
+                    <div><a href="#signup">Signup</a></div>
+                    <div><a href="#contactme">Contact Me</a></div>
+                </div>
+
+            </div>
+
+            <div class="hero-section">
+    
+                <div class="hero-section-left">
+                    <div class="hero-section-heading">"Effortlessly conquer your to-dos with <span class="taskify">Taskify</span>"
+                       <!-- where productivity meets simplicity." -->
+                    </div>
+                    
+                    <!-- <div class="hero-section-heading hero-section-sub-heading">
+                        I am a <span class="role"></span>
+                    </div> -->
+    
+                    <div class="hero-section-description">
+                      Streamline your tasks effortlessly with <span class="taskify">Taskify</span>,
+                       your ultimate productivity companion. Organize, prioritize, and conquer with ease.
+                    </div>
+                    
+                    <div class="btn-pink" id="btn">Generate Calender</div>
+    
+                </div>
+    
+                <div class="hero-section-right">
+                      <div class="user-image">
+                        <img src="./images/userAsset/mainImage.jpeg" alt="" width="350px" height="350px" />
+                      </div>
+                </div>
+    
+            </div>
+        </div>
+
+        <!-- add login here -->
+        <div class="login" id="login">
+
+          <div class="main">
+
+
+
+            <div class="wrapper_login">
+
+
+              <div class="user-image img_login">
+                <img src="images/userAsset/login.jpg" width="400px" height="400px" />
+            </div>
+        
+        
+                <div class="form_login">
+                    <h1>Welcome Back</h1>
+                    <br/>
+                    <p>Build tasks for today, tomorrow, and beyond. <span class="blue">Management<br/> to future-proof your career.
+                        </span>
+                    </p>
+                    <br/>
+
+                      <form>
+                        <p>Email Address<sup>*</sup></p>
+                        <input type="email" required placeholder="Enter email"/>
+        
+                        <p>Password<sup>*</sup></p>
+                        <input type="password" required placeholder="Enter password"/>
+                    </form>
+                    <br/>
+                    <br/>
+                    <div class="btn-pink" id="btn">Login</div>
+                </div>
+        
+                
+        
+        
+            </div>
+        
+            </div>
+
+
+        </div>
+
+        <!-- add signup here -->
+
+        <div class="signup" id="signup">
+          <div class="main">
+
+
+
+            <div class="wrapper_login">
+        
+        
+                <div class="form_login">
+                    <h1>Join the millions using Taskify for free</h1>
+                    <br/>
+                    <p>Build tasks for today, tomorrow, and beyond. <span class="blue">Management<br/> to future-proof your career.
+                        </span>
+                    </p>
+                    <br/>
+
+                      <form class="signup_form">
+                        <div class="row_div">
+                          <p>First Name<sup>*</sup></p>
+                        <input type="string" required placeholder="Enter First Name"/>
+        
+                        <p>Last Name<sup>*</sup></p>
+                        <input type="string" required placeholder="Enter Last Name"/>
+                        </div>
+
+                        <div class="row_div">
+                          <p>Email<sup>*</sup></p>
+                        <input type="email" required placeholder="Enter Email"/>
+                        </div>
+
+                        <div class="row_div">
+                          <p>Password<sup>*</sup></p>
+                        <input type="password" required placeholder="Enter Password"/>
+                        <p>Confirm Password<sup>*</sup></p>
+                        <input type="password" required placeholder="Enter Password"/>
+                        </div>
+                    </form>
+                    <br/>
+                    <br/>
+                    <div class="btn-pink" id="btn">Signup</div>
+                </div>
+        
+                <div class="user-image img_login">
+                  <img src="images/userAsset/signup.jpg" width="500px" height="500px" />
+              </div>
+        
+        
+            </div>
+        
+            </div>
+        </div>
+
+        
+        
+        <div id="skills" class="container skills-container ">
+          <div class="skill-fade-text">Skills</div>
+
+          <div class="skill-container-right">
+
+            <img src="images/userAsset/ImageTaskify.jpeg" class="skills-logo" width="400px" height="400px"/>
+          </div>
+
+          <div class="skill-container-left">
+            <h2 class="skill-heading">
+              Unlock your potential with
+              <br>
+              <span class="Taskify">Taskify</span>
+            </h2>
+
+            <div class="skill-subHeading">
+              <p>
+                Taskify simplifies task management, offering intuitive organization, 
+                seamless collaboration, and efficient progress tracking, empowering you to achieve more in less time.
+                Maximize productivity with Taskify.
+                 Streamline tasks, collaborate efficiently, and stay on top of deadlines effortlessly.
+              </p>
+            </div>
+          </div>
+
+        
+        
+        
+        </div>
+
+        <div class="contactus-form-container" id="contactme">
+          <div class="container">
+
+            <h1 class="contactus-heading">Contact me</h1>
+
+            <h3 class="contactus-sub-heading">
+              Questions, thoughts, or just want to say hello?
+            </h3>
+
+
+            <div class="contactus-form-container">
+              <form class="form" action="">
+                <div class="formfield-container">
+                  <input class="formfield" 
+                  type="text" 
+                  name="name" 
+                  id="" 
+                  placeholder="Enter your name" />
+
+                  <input class="formfield" 
+                  type="email" 
+                  name="email" 
+                  id="" 
+                  placeholder="Enter your email address" />
+
+                  <input class="formfield" 
+                  type="text" 
+                  name="subject" 
+                  id="" 
+                  placeholder="Enter your subject" />
+
+                  <textarea name="message" 
+                  id="" cols="30" rows="10" 
+                  class="formfield formfield-textarea"
+                  placeholder="Enter your message"></textarea>
+
+                </div>
+                
+                <div>
+                  <button type="submit" class="btn-pink" id="submit-btn">
+                    Send Message<i class="submit-icon fa-solid fa-paper-plane"></i>
+                  </button>
+                </div>
+
+              </form>
+
+            </div>
+
+
+          </div>
+        </div>
+
+        <footer>
+            <div class="main_foot">
+    
+                <div>
+                    <h1 class="heading">
+                        Taskify
+                    </h1>
+                    <div class="logo">
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-square-facebook"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+    
+                <div>
+                    <ul class="footer_point">
+                        <li class="sub_head ">Product</li>
+                        <li class="subsub_head">Download</li>
+                        <li class="subsub_head">Nitro</li>
+                        <li class="subsub_head">Status</li>
+                    </ul>
+                </div>
+    
+                <div>
+                    <ul class="footer_point">
+                        <li class="sub_head ">Company</li>
+                        <li class="subsub_head">About</li>
+                        <li class="subsub_head">Jobs</li>
+                        <li class="subsub_head">Brand</li>
+                        <li class="subsub_head">Newsroom</li>
+                    </ul>
+                </div>
+    
+                <div>
+                    <ul class="footer_point">
+                        <li class="sub_head ">Resources</li>
+                        <li class="subsub_head">College</li>
+                        <li class="subsub_head">Support</li>
+                        <li class="subsub_head">Safety</li>
+                        <li class="subsub_head">Blog</li>
+                        <li class="subsub_head">Feedback</li>
+                        <li class="subsub_head">Build</li>
+                        <li class="subsub_head">StreamKit</li>
+                        <li class="subsub_head">Creators</li>
+                        <li class="subsub_head">Community</li>
+                        <li class="subsub_head">Office 3rd Party Merch</li>
+                    </ul>
+                </div>
+    
+                <div>
+                    <ul class="footer_point">
+                        <li class="sub_head ">Policies</li>
+                        <li class="subsub_head">Terms</li>
+                        <li class="subsub_head">Privacy</li>
+                        <li class="subsub_head">Cookie Settings</li>
+                        <li class="subsub_head">Guidelines</li>
+                        <li class="subsub_head">Acknowledgements</li>
+                        <li class="subsub_head">Licenses</li>
+                        <li class="subsub_head">Moderation</li>
+                        <li class="subsub_head">Company Information</li>
+                    </ul>
+                </div>
+    
+            </div>
+            <!--Section-2-->
+            <br>
+            <br>
+    
+        </footer>
+
+    </div>
+  
 </body>
 </html>
